@@ -1,5 +1,7 @@
                                 // Javascript Basics req for "REACT"
 
+// Number(value) - Number function is used to convert the data stored in value variable into Number data-type.
+
 //object creation
 const persons = [
   {
