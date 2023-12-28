@@ -9,7 +9,7 @@ import Data from "./FetchData";
 import MutableData from "./MutableData";
 import Home from "./Home";
 import ReduxExample from "./ReduxExample";
-
+import AxiosGet from "./AxiosGet";
 function App() {
   return (
     <div className="App">
@@ -28,6 +28,9 @@ function App() {
             <li>
               <NavLink to="/redux">Redux Example</NavLink>
             </li>
+            <li>
+              <NavLink to="/get">Axios Get Request</NavLink>
+            </li>
           </ul>
         </div>
 
@@ -36,6 +39,7 @@ function App() {
           <Route path="/Data" element={<Data />} />
           <Route path="/MutableData" element={<MutableData />} />
           <Route path="/redux" element={<ReduxExample />} />
+          <Route path="/get" element={<AxiosGet />} />
         </Routes>
       </Router>
     </div>
