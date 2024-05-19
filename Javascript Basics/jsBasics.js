@@ -71,7 +71,7 @@ console.log("Multiplication of 2 number is: " + mul(5, 2));
 
 
 
-// map method  --->  returns an new array 
+// map method  --->  returns an new array by applying func to each elem of a previous array.
 Namee=persons.map((person)=>person.name);
 console.log(Namee);
 
